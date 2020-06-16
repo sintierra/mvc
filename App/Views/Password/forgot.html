@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %} Olvidé mi Contraseña {% endblock %}
+
+{% block body %}
+
+<h1>Solicita un cambio de contraseña</h1>
+<form method="POST" action="{{ root_path }}/password/request-reset">
+    <div class="form-group">
+        <label for="inputEmail">Dirección de E-mail</label>
+        <input class="form-control" type="email" id="inputEmail" name="email" placeholder="E-mail" autofocus required>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Solicitar Recuperar Clave</button>
+
+</form>
+{% endblock %}

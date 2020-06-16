@@ -1,0 +1,12 @@
+[17-Apr-2020 17:56:13 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('indexAction')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/Core/Router.php' on line 162
+[17-Apr-2020 17:56:25 Europe/Berlin] Uncaught exception: 'Exception' with message 'Method indexAction in controller App\Controllers\Home cannot be called directly - remove the Action suffix to call this method'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('home/indexActio...')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/Core/Router.php' on line 152
+[17-Apr-2020 17:57:32 Europe/Berlin] Uncaught exception: 'Exception' with message 'Method indexAction in controller App\Controllers\Home cannot be called directly - remove the Action suffix to call this method'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('home/indexActio...')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/Core/Router.php' on line 152

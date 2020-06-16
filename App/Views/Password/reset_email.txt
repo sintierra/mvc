@@ -1,0 +1,4 @@
+Restaurar Contraseña
+
+Por favor hace click en el siguiente link para restaurar tu contraseña
+{{ url }}

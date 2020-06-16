@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %} Perfil {% endblock %}
+
+{% block body %}
+
+    <h1>Perfil de Usuario</h1>
+
+    <dl class="row">
+        <dt class="col-sm-3">Name</dt>
+        <dd class="col-sm-9">{{ user.name }}</dd>
+        <dt class="col-sm-3">e-mail</dt>
+        <dd class="col-sm-9">{{ user.email }}</dd>
+
+    
+    </dl>
+
+    <a href="{{ root_path }}/profile/edit">Editar Perfil</a>
+{% endblock %}

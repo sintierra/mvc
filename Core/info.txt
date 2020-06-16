@@ -1,0 +1,3 @@
+Carpeta Core donde se guarda el núcleo del Framework
+-Router: Clase que toma todas las URLs del cliente y las procesa para requerir (require) los archivos de los controladores
+

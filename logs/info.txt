@@ -1,0 +1,1 @@
+Carpeta donde los logs se guardan.

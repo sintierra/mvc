@@ -1,0 +1,80 @@
+[20-Apr-2020 18:11:19 Europe/Berlin] Uncaught exception: 'Twig\Error\SyntaxError' with message 'A template that extends another one cannot include content outside Twig blocks. Did you forget to put the content inside a {% block %} tag?'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Parser.php(353): Twig\Parser->filterBodyNodes(Object(Twig\Node\TextNode), false)
+#1 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Parser.php(97): Twig\Parser->filterBodyNodes(Object(Twig\Node\Node))
+#2 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(479): Twig\Parser->parse(Object(Twig\TokenStream))
+#3 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(507): Twig\Environment->parse(Object(Twig\TokenStream))
+#4 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(348): Twig\Environment->compileSource(Object(Twig\Source))
+#5 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(309): Twig\Environment->loadTemplate('__TwigTemplate_...', 'Signup/new.html')
+#6 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Signup/new.html')
+#7 /opt/lampp/htdocs/cursoMVC/Core/View.php(53): Twig\Environment->render('Signup/new.html', Array)
+#8 /opt/lampp/htdocs/cursoMVC/App/Controllers/Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#9 [internal function]: App\Controllers\Signup->newAction()
+#10 /opt/lampp/htdocs/cursoMVC/Core/Controller.php(57): call_user_func_array(Array, Array)
+#11 /opt/lampp/htdocs/cursoMVC/Core/Router.php(140): Core\Controller->__call('new', Array)
+#12 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('signup/new')
+#13 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/App/Views/Signup/new.html' on line 4
+[20-Apr-2020 18:11:26 Europe/Berlin] Uncaught exception: 'Twig\Error\SyntaxError' with message 'A template that extends another one cannot include content outside Twig blocks. Did you forget to put the content inside a {% block %} tag?'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Parser.php(353): Twig\Parser->filterBodyNodes(Object(Twig\Node\TextNode), false)
+#1 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Parser.php(97): Twig\Parser->filterBodyNodes(Object(Twig\Node\Node))
+#2 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(479): Twig\Parser->parse(Object(Twig\TokenStream))
+#3 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(507): Twig\Environment->parse(Object(Twig\TokenStream))
+#4 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(348): Twig\Environment->compileSource(Object(Twig\Source))
+#5 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(309): Twig\Environment->loadTemplate('__TwigTemplate_...', 'Signup/new.html')
+#6 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Signup/new.html')
+#7 /opt/lampp/htdocs/cursoMVC/Core/View.php(53): Twig\Environment->render('Signup/new.html', Array)
+#8 /opt/lampp/htdocs/cursoMVC/App/Controllers/Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#9 [internal function]: App\Controllers\Signup->newAction()
+#10 /opt/lampp/htdocs/cursoMVC/Core/Controller.php(57): call_user_func_array(Array, Array)
+#11 /opt/lampp/htdocs/cursoMVC/Core/Router.php(140): Core\Controller->__call('new', Array)
+#12 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('signup/new')
+#13 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/App/Views/Signup/new.html' on line 4
+[20-Apr-2020 18:14:44 Europe/Berlin] Uncaught exception: 'Twig\Error\SyntaxError' with message 'A template that extends another one cannot include content outside Twig blocks. Did you forget to put the content inside a {% block %} tag?'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Parser.php(353): Twig\Parser->filterBodyNodes(Object(Twig\Node\TextNode), false)
+#1 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Parser.php(97): Twig\Parser->filterBodyNodes(Object(Twig\Node\Node))
+#2 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(479): Twig\Parser->parse(Object(Twig\TokenStream))
+#3 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(507): Twig\Environment->parse(Object(Twig\TokenStream))
+#4 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(348): Twig\Environment->compileSource(Object(Twig\Source))
+#5 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(309): Twig\Environment->loadTemplate('__TwigTemplate_...', 'Signup/new.html')
+#6 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Signup/new.html')
+#7 /opt/lampp/htdocs/cursoMVC/Core/View.php(53): Twig\Environment->render('Signup/new.html', Array)
+#8 /opt/lampp/htdocs/cursoMVC/App/Controllers/Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#9 [internal function]: App\Controllers\Signup->newAction()
+#10 /opt/lampp/htdocs/cursoMVC/Core/Controller.php(57): call_user_func_array(Array, Array)
+#11 /opt/lampp/htdocs/cursoMVC/Core/Router.php(140): Core\Controller->__call('new', Array)
+#12 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('signup/new')
+#13 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/App/Views/Signup/new.html' on line 4
+[20-Apr-2020 18:14:46 Europe/Berlin] Uncaught exception: 'Twig\Error\SyntaxError' with message 'A template that extends another one cannot include content outside Twig blocks. Did you forget to put the content inside a {% block %} tag?'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Parser.php(353): Twig\Parser->filterBodyNodes(Object(Twig\Node\TextNode), false)
+#1 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Parser.php(97): Twig\Parser->filterBodyNodes(Object(Twig\Node\Node))
+#2 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(479): Twig\Parser->parse(Object(Twig\TokenStream))
+#3 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(507): Twig\Environment->parse(Object(Twig\TokenStream))
+#4 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(348): Twig\Environment->compileSource(Object(Twig\Source))
+#5 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(309): Twig\Environment->loadTemplate('__TwigTemplate_...', 'Signup/new.html')
+#6 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Signup/new.html')
+#7 /opt/lampp/htdocs/cursoMVC/Core/View.php(53): Twig\Environment->render('Signup/new.html', Array)
+#8 /opt/lampp/htdocs/cursoMVC/App/Controllers/Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#9 [internal function]: App\Controllers\Signup->newAction()
+#10 /opt/lampp/htdocs/cursoMVC/Core/Controller.php(57): call_user_func_array(Array, Array)
+#11 /opt/lampp/htdocs/cursoMVC/Core/Router.php(140): Core\Controller->__call('new', Array)
+#12 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('signup/new')
+#13 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/App/Views/Signup/new.html' on line 4
+[20-Apr-2020 18:14:48 Europe/Berlin] Uncaught exception: 'Twig\Error\SyntaxError' with message 'A template that extends another one cannot include content outside Twig blocks. Did you forget to put the content inside a {% block %} tag?'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Parser.php(353): Twig\Parser->filterBodyNodes(Object(Twig\Node\TextNode), false)
+#1 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Parser.php(97): Twig\Parser->filterBodyNodes(Object(Twig\Node\Node))
+#2 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(479): Twig\Parser->parse(Object(Twig\TokenStream))
+#3 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(507): Twig\Environment->parse(Object(Twig\TokenStream))
+#4 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(348): Twig\Environment->compileSource(Object(Twig\Source))
+#5 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(309): Twig\Environment->loadTemplate('__TwigTemplate_...', 'Signup/new.html')
+#6 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Signup/new.html')
+#7 /opt/lampp/htdocs/cursoMVC/Core/View.php(53): Twig\Environment->render('Signup/new.html', Array)
+#8 /opt/lampp/htdocs/cursoMVC/App/Controllers/Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#9 [internal function]: App\Controllers\Signup->newAction()
+#10 /opt/lampp/htdocs/cursoMVC/Core/Controller.php(57): call_user_func_array(Array, Array)
+#11 /opt/lampp/htdocs/cursoMVC/Core/Router.php(140): Core\Controller->__call('new', Array)
+#12 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('signup/new')
+#13 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/App/Views/Signup/new.html' on line 4

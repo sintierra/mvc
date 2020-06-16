@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block title %} Restaurar Contraseña {% endblock %}
+
+
+{% block footer %}
+    <script src="{{ root_path }}/js/hideShowPassword.min.js"></script>
+    <script src="{{ root_path }}/js/app.js"></script>
+
+<!-- Los scripts JS específicos de cada template se cargan luego de cargar el base.html template para evitar errores -->
+    <script>
+        
+        //Agrega un meodo JQuery para validar si el e-mail existe
+        $(document).ready(function() {
+
+            $('#formPassword').validate({
+                rules: {
+                    password: {
+                        required: true,
+                        minlength: 6,
+                        validPassword: true
+                    }
+                },
+                messages: {
+                    email: {
+                        remote: 'Dirección de Email en uso'
+                    }
+                }
+            });
+            /*
+             * Muestra el botón show para mostrar el password            
+            */
+
+            $('#inputPassword').hideShowPassword({
+                show: false,
+                innerToggle: 'focus'
+            });
+        });
+    </script>
+{% endblock %}
+
+{% block body %}
+    <h1>Restaurar Contraseña</h1>
+
+    {% if user.errors is not empty %}
+        <p>Errors:</p>
+        <ul>
+            {% for error in user.errors %}
+                <li>{{ error }}</li>
+            {% endfor %}
+
+        </ul>
+    {% endif %}
+
+    <form method="POST" id="formPassword" action="{{ root_path }}/password/reset-password">
+
+        <input type="hidden" name="token" value="{{ token }}">
+
+        <div class="form-group">
+            <label for="inputPassword">Contraseña</label>
+            <input class="form-control" type="password" id="inputPassword" name="password" placeholder="contraseña" required>
+        </div>
+
+       
+
+        <button class="btn btn-primary" type="submit">Restaurar Contraseña</button>
+    </form>
+
+{% endblock %}

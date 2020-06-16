@@ -1,0 +1,3 @@
+Carpeta public donde se guardan los archivos públicos que el cliente ve en nuestra aplicación. Aquí está el INDEX.php
+-Aquí está el FRONT CONTROLLER y todos los archivos estáticos.
+-Ningún tipo de código de la aplicación, incluso los passwords de la DB, deben ir aquí. Por eso es más seguro

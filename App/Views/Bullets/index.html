@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %} Bullets {% endblock %}
+{% block body %}
+    <h1>Bullets</h1>
+
+    <ul>
+        <dl class="row">
+
+        {% for bullets in bullets %}
+            <dt class="col-sm-3">Nombre</dt>
+            <dd class="col-sm-9">{{ bullets.name }}</dd>
+            <dt class="col-sm-3">Texto</dt>
+            <dd class="col-sm-9">{{ bullets.text }}</dd>
+            <br>
+        {% endfor %}
+           
+    
+        
+        </dl>
+
+    </ul>
+
+
+
+{% endblock %}

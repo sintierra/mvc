@@ -1,0 +1,13 @@
+[19-Apr-2020 21:14:34 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('signup/signup/c...')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/Core/Router.php' on line 162
+[19-Apr-2020 23:42:10 Europe/Berlin] Uncaught exception: 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'marcosditrana@gmail.com' for key 'email''
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/App/Models/User.php(59): PDOStatement->execute()
+#1 /opt/lampp/htdocs/cursoMVC/App/Controllers/Signup.php(44): App\Models\User->save()
+#2 [internal function]: App\Controllers\Signup->createAction()
+#3 /opt/lampp/htdocs/cursoMVC/Core/Controller.php(57): call_user_func_array(Array, Array)
+#4 /opt/lampp/htdocs/cursoMVC/Core/Router.php(140): Core\Controller->__call('create', Array)
+#5 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('signup/create')
+#6 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/App/Models/User.php' on line 59

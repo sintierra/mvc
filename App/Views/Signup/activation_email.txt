@@ -1,0 +1,5 @@
+Activación de Cuenta
+
+Gracias por registrarte. Por favor clickea en el siguiente link para activar tu cuenta:
+
+{{ url }}

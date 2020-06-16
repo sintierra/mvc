@@ -1,0 +1,94 @@
+[16-Apr-2020 16:13:44 GMT] Uncaught exception: 'Exception' with message 'Clase Controlador App\Controllers\Sindefinicion no encontrada'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('sindefinicion/n...')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/Core/Router.php' on line 157
+[16-Apr-2020 16:14:09 GMT] Uncaught exception: 'Exception' with message 'Clase Controlador App\Controllers\Pija no encontrada'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('pija/larga')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/Core/Router.php' on line 157
+[16-Apr-2020 21:45:44 Europe/Berlin] Uncaught exception: 'Exception' with message 'Clase Controlador App\Controllers\Fuck no encontrada'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('fuck/me')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/Core/Router.php' on line 157
+[16-Apr-2020 21:46:49 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('fuck')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/Core/Router.php' on line 162
+[16-Apr-2020 21:48:02 Europe/Berlin] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Home/inde.html" (looked into: /opt/lampp/htdocs/cursoMVC/App/Views).'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Home/inde.html')
+#1 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Home/inde.html')
+#2 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('Home/inde.html')
+#3 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Home/inde.html')
+#4 /opt/lampp/htdocs/cursoMVC/Core/View.php(53): Twig\Environment->render('Home/inde.html', Array)
+#5 /opt/lampp/htdocs/cursoMVC/App/Controllers/Home.php(52): Core\View::renderTemplate('Home/inde.html', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 /opt/lampp/htdocs/cursoMVC/Core/Controller.php(57): call_user_func_array(Array, Array)
+#8 /opt/lampp/htdocs/cursoMVC/Core/Router.php(140): Core\Controller->__call('index', Array)
+#9 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('')
+#10 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Loader/FilesystemLoader.php' on line 227
+[16-Apr-2020 22:29:15 Europe/Berlin] Uncaught exception: 'Exception' with message 'Clase Controlador App\Controllers\Pija no encontrada'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('pija/larga')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/Core/Router.php' on line 157
+[16-Apr-2020 22:29:15 Europe/Berlin] PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "500.html" (looked into: /opt/lampp/htdocs/cursoMVC/App/Views). in /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('500.html')
+#1 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('500.html')
+#2 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('500.html')
+#3 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('500.html')
+#4 /opt/lampp/htdocs/cursoMVC/Core/View.php(53): Twig\Environment->render('500.html', Array)
+#5 /opt/lampp/htdocs/cursoMVC/Core/Error.php(72): Core\View::renderTemplate('500.html')
+#6 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#7 {main}
+  thrown in /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Loader/FilesystemLoader.php on line 227
+[16-Apr-2020 22:32:42 Europe/Berlin] Uncaught exception: 'Exception' with message 'Clase Controlador App\Controllers\Pija no encontrada'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('pija/larga')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/Core/Router.php' on line 157
+[16-Apr-2020 22:33:16 Europe/Berlin] Uncaught exception: 'Exception' with message 'Clase Controlador App\Controllers\Pija no encontrada'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('pija/larga')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/Core/Router.php' on line 157
+[16-Apr-2020 22:33:21 Europe/Berlin] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Home/inde.html" (looked into: /opt/lampp/htdocs/cursoMVC/App/Views).'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Home/inde.html')
+#1 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Home/inde.html')
+#2 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('Home/inde.html')
+#3 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Home/inde.html')
+#4 /opt/lampp/htdocs/cursoMVC/Core/View.php(53): Twig\Environment->render('Home/inde.html', Array)
+#5 /opt/lampp/htdocs/cursoMVC/App/Controllers/Home.php(52): Core\View::renderTemplate('Home/inde.html', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 /opt/lampp/htdocs/cursoMVC/Core/Controller.php(57): call_user_func_array(Array, Array)
+#8 /opt/lampp/htdocs/cursoMVC/Core/Router.php(140): Core\Controller->__call('index', Array)
+#9 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('')
+#10 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Loader/FilesystemLoader.php' on line 227
+[16-Apr-2020 22:33:41 Europe/Berlin] Uncaught exception: 'Exception' with message 'Clase Controlador App\Controllers\Pija no encontrada'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('pija/larga')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/Core/Router.php' on line 157
+[16-Apr-2020 22:33:50 Europe/Berlin] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Home/inde.html" (looked into: /opt/lampp/htdocs/cursoMVC/App/Views).'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Home/inde.html')
+#1 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Home/inde.html')
+#2 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('Home/inde.html')
+#3 /opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Home/inde.html')
+#4 /opt/lampp/htdocs/cursoMVC/Core/View.php(53): Twig\Environment->render('Home/inde.html', Array)
+#5 /opt/lampp/htdocs/cursoMVC/App/Controllers/Home.php(52): Core\View::renderTemplate('Home/inde.html', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 /opt/lampp/htdocs/cursoMVC/Core/Controller.php(57): call_user_func_array(Array, Array)
+#8 /opt/lampp/htdocs/cursoMVC/Core/Router.php(140): Core\Controller->__call('index', Array)
+#9 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('')
+#10 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/vendor/twig/twig/src/Loader/FilesystemLoader.php' on line 227
+[16-Apr-2020 22:34:37 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('pija/')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/Core/Router.php' on line 162
+[16-Apr-2020 22:34:47 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('pija/')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/Core/Router.php' on line 162
+[16-Apr-2020 22:34:49 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/cursoMVC/public/index.php(83): Core\Router->dispatch('pija/')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/cursoMVC/Core/Router.php' on line 162
